@@ -1,5 +1,6 @@
 def docker()
 {
+  echo "Inside the shared library"
   withCredentials([usernamePassword(
                 credentialsId:'docker-hub-cred',
                 passwordVariable:"dockerHubPass",
