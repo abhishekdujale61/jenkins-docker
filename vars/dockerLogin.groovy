@@ -1,4 +1,4 @@
-def docker()
+def call()
 {
   echo "Inside the shared library"
   withCredentials([usernamePassword(
